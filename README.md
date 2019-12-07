@@ -32,7 +32,7 @@ bash arch-linux-installer.sh
 #### 使用方法：
 进入live系统连接网络后执行：
 ```
-wget https://github.com/YangMame/Arch-Linux-Installer/raw/master/arch-linux-installer.sh
+wget https://github.com/ittooo/Arch-Linux-Installer/raw/master/arch-linux-installer.sh
 bash arch-linux-installer.sh
 ```
 
