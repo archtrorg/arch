@@ -144,8 +144,8 @@ done
     select mirror in "`tail -n 1 /etc/pacman.d/mirrorlist`" "`tail -n 2 /etc/pacman.d/mirrorlist | head -n 1`" "`tail -n 3 /etc/pacman.d/mirrorlist | head -n 1`";do
         echo $mirror > /etc/pacman.d/mirrorlist
     break
- done
-    pacstrap /mnt base
+    done
+    pacstrap /mnt base base-devel linux linux-firmware networkmanager vim
     genfstab -U /mnt >> /mnt/etc/fstab
 
 }
