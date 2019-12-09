@@ -145,13 +145,13 @@ done
     break
     done
 
-    pacstrap /mnt base base-devel --force
-    genfstab -U -p /mnt > /mnt/etc/fstab
+    pacstrap /mnt base base-devel linux linux-firmware --force
+    genfstab -U /mnt >> /mnt/etc/fstab
 }
 
 config(){
     rm -rf /mnt/root/config.sh
-    wget https://raw.githubusercontent.com/YangMame/Arch-Linux-Installer/master/config.sh -O /mnt/root/config.sh
+    wget https://raw.githubusercontent.com/ittooo/Arch/master/config.sh -O /mnt/root/config.sh
     chmod +x /mnt/root/config.sh
     arch-chroot /mnt /root/config.sh $ROOT $boot
 }
