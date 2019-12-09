@@ -12,8 +12,8 @@
 #### 使用方法：
 进入live系统连接网络后执行：
 ```
-wget https://github.com/ittooo/Arch-Linux-Installer/raw/master/arch-linux-installer.sh
-bash arch-linux-installer.sh
+wget https://github.com/ittooo/Arch/raw/master/live.sh
+bash live.sh
 ```
 
 *注意查看带有颜色的提示*
