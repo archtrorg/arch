@@ -1,23 +1,3 @@
-## Arch Linux 15 Minutes Install Script
-
-### Features
-* Configure the partition
-* Install the basic system
-* Install graphics driver (support Intel / Nvidia dual graphics)
-* Install and configure Bluetooth
-* Create user
-* Install the necessary software
-* Support choose to install mainstream desktop
-
-### How To Use
-Boot into Arch Linux Live CD , Connect The Network And Run :
-```
-wget https://github.com/YangMame/Arch-Linux-Installer/raw/master/arch-linux-installer.sh
-bash arch-linux-installer.sh
-```
-
----
-
 ## Arch Linux 15分钟脚本
 
 #### 功能：
