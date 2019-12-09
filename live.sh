@@ -136,6 +136,7 @@ install(){
         wget https://raw.githubusercontent.com/ittooo/Arch/master/rankmirrors.sh
         bash rankmirrors.sh -n 3 /etc/pacman.d/mirrorlist.new > /etc/pacman.d/mirrorlist
         chmod +r /etc/pacman.d/mirrorlist
+	rm -f mirrorlist.new
 	break
 done
 
