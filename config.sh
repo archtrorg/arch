@@ -227,7 +227,7 @@ install_app(){
             cd ..
             rm -rf package-query yay"
         fi
-    pacman -S --noconfirm networkmanager xorg-server firefox wqy-zenhei
+    pacman -S --noconfirm networkmanager xorg-server Monaco wqy-microhei
     systemctl enable NetworkManager
     if [ "$GPU" == "Intel and Nvidia" ];then
         gpasswd -a $USER bumblebee
