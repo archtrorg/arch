@@ -145,7 +145,7 @@ done
         echo $mirror > /etc/pacman.d/mirrorlist
     break
     done
-    pacstrap /mnt base base-devel linux linux-firmware networkmanager vim
+    pacstrap /mnt base base-devel linux linux-firmware 
     genfstab -U /mnt >> /mnt/etc/fstab
 
 }
