@@ -144,7 +144,7 @@ done
         echo $mirror > /etc/pacman.d/mirrorlist
     break
     done
-    pacstrap /mnt base base-devel #intel-ucode
+    pacstrap /mnt base base-devel 
     genfstab -U /mnt >> /mnt/etc/fstab
 
 }
