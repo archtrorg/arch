@@ -136,7 +136,6 @@ install(){
         wget https://raw.githubusercontent.com/ittooo/Arch/master/rankmirrors.sh
         bash rankmirrors.sh -n 3 /etc/pacman.d/mirrorlist.new > /etc/pacman.d/mirrorlist
         chmod +r /etc/pacman.d/mirrorlist
-	#rm -f mirrorlist.new
 	break
 done
 
@@ -145,7 +144,7 @@ done
         echo $mirror > /etc/pacman.d/mirrorlist
     break
     done
-    pacstrap /mnt base base-devel
+    pacstrap /mnt base base-devel intel-ucode
     genfstab -U /mnt >> /mnt/etc/fstab
 
 }
