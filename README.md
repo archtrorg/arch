@@ -18,3 +18,5 @@ bash live.sh
 
 *注意查看带有颜色的提示*
 
+安装完成后进入/root目录删除config.sh文件
+
