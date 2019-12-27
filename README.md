@@ -12,7 +12,7 @@
 #### 使用方法：
 进入live系统连接网络后执行：
 ```
-wget https://github.com/ittooo/Arch/raw/master/live.sh
+wget https://github.com/ittooo/arch/raw/master/live.sh
 bash live.sh
 ```
 
